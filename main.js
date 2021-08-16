@@ -10,7 +10,7 @@ let container = document.querySelector('.container')
 
 //Functions
 function getData(){ //Funcion para traer los datos
-    fetch(URL) //Fetch ahora sabe de donde pedir la data
+    fetch(URL) //Fetch ahora sabe de donde pedir la  data
         .then(result => { //Una vez terminado fetch, le dare el resultado, y llega a la funcion
             return result.json() //Cuando hago un return y result.json toma mucho tiempo, es una promesa; por tanto retorna una promesa
         })
